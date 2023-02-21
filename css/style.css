@@ -1,6 +1,36 @@
 * {
     box-sizing: border-box;
   }
+  header {
+    background-color: #ff44c4;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    word-spacing: 10px;
+  }
+  nav{
+    box-shadow: 0px 9px 10px 0px rgba(0,0,0,0.69);
+  }
+  nav > ul {
+    list-style-type: none;
+    padding: 0;
+  }
+    nav > ul > li {
+    display: inline-block;
+    width: 100;
+  }
+  nav > ul > li > a:visited {
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #4a4a4a;
+  }
+  #hero {
+    background-color: #ff44c4;
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%;
+  }
   .container {
     padding: 0 15px;/* Layout styling */
   } 
@@ -16,7 +46,12 @@
         line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
         color: #050404;
       }
-      
+      #hero {
+        background-color: #ff44c4;
+      }
+      #hero h1 {
+        text-align: center; /* Centers text */
+      } 
       h1, h2, h3, h4 {
         line-height: 1.4;
       }
