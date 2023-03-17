@@ -7,7 +7,7 @@
 }
 
 header {
-	background-color: #ff44c4;
+	background-color: #eeeeee;
 	text-align: center;
 	padding: 10px, 0;
 	border-bottom: 3px solid #4a4a4a;
@@ -61,7 +61,6 @@ main {
 
 #work .row {
 	padding-bottom: 25px;
-	border-bottom: 1px solid #4a4a4a;
 }
 
 body {
@@ -86,12 +85,11 @@ body {
 }
 
 #hero {
-	background-color: #ff44c4;
+	background-color: #eeeeee;
 	padding: 20px 0;
 	display: inline-block;
 	width: 100%;
 }
-
 h1,
 h2,
 h3,
@@ -125,6 +123,7 @@ h4 {
 	height: auto;
 	position: relative;
 	float: left;
+	
 }
 
 @keyframes color-change {
@@ -284,9 +283,10 @@ Medium devices (640px and larger)
 		width: 50%;
 	}
 
-	[class*="col-"] {
-		float: left;
-	}
+	.col {
+		padding: 10px;
+	
+}
 
 	#about-page h3 {
 		margin-top: 0;
@@ -308,15 +308,11 @@ Large devices (1024px or larger)
 		margin-top: 4px;
 	}
 
-	.col-5 {
+	.col-md-5 {
 		width: 41.66%;
 	}
 
-	.col-md-6 {
-		width: 50%;
-	}
-
-	.col-7 {
+	.col-lg-7 {
 		width: 58.33%;
 	}
 
@@ -328,6 +324,11 @@ Large devices (1024px or larger)
 		max-width: 1200px;
 		margin-left: auto;
 		margin-right: auto;
+		text-align: unset;
+	}
+
+	.column {
+		padding: 20px;
 	}
 }
 
