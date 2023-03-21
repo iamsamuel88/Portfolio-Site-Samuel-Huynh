@@ -117,12 +117,11 @@ h4 {
 	font-weight: 400;
 }
 
-.berlin-illustratione {
+.berlin-illustration {
 	width: 100%;
 	max-width: 100%;
 	height: auto;
 	position: relative;
-	float: left;
 	
 }
 
@@ -263,6 +262,10 @@ a:focus {
 	background-color: #40d2ff80;
 	color: #00c2ff;
 }
+#my-picture{
+	width: 200px;
+	padding-top: 20px;
+}
 
 /* ==============================
 Medium devices (640px and larger)
@@ -284,9 +287,13 @@ Medium devices (640px and larger)
 	}
 
 	.col {
-		padding: 10px;
+		padding: 20px;
 	
-}
+	}
+
+	[class*="col-"] {
+		float: left;
+	}
 
 	#about-page h3 {
 		margin-top: 0;
@@ -308,18 +315,13 @@ Large devices (1024px or larger)
 		margin-top: 4px;
 	}
 
-	.col-md-5 {
+	.col-md-6 {
 		width: 41.66%;
 	}
 
 	.col-lg-7 {
 		width: 58.33%;
 	}
-
-	[class*="col-"] {
-		float: left;
-	}
-
 	.container {
 		max-width: 1200px;
 		margin-left: auto;
