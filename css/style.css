@@ -42,7 +42,7 @@ main {
 	display: block;
 }
 
-.container::after {
+.row::after {
 	content: "";
 	clear: both;
 	display: table;
