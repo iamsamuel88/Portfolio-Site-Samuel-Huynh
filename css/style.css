@@ -35,7 +35,7 @@ nav>ul>li>a:visited {
 }
 
 main {
-	padding-top: 99px;
+	padding-top: 133px;
 }
 
 #hero span {
@@ -265,6 +265,10 @@ a:focus {
 #my-picture{
 	width: 200px;
 	padding-top: 20px;
+	position: flex;
+	align-items: center;
+	justify-content: center;
+	
 }
 
 /* ==============================
@@ -287,7 +291,7 @@ Medium devices (640px and larger)
 	}
 
 	.col {
-		padding: 20px;
+		padding: 50px;
 	
 	}
 
@@ -295,9 +299,6 @@ Medium devices (640px and larger)
 		float: left;
 	}
 
-	#about-page h3 {
-		margin-top: 0;
-	}
 }
 
 /* ==============================
