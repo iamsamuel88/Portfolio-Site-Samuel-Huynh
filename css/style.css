@@ -90,6 +90,7 @@ body {
 	display: inline-block;
 	width: 100%;
 }
+
 h1,
 h2,
 h3,
@@ -122,7 +123,7 @@ h4 {
 	max-width: 100%;
 	height: auto;
 	position: relative;
-	
+
 }
 
 @keyframes color-change {
@@ -262,13 +263,14 @@ a:focus {
 	background-color: #40d2ff80;
 	color: #00c2ff;
 }
-#my-picture{
+
+#my-picture {
 	width: 200px;
 	padding-top: 20px;
 	position: flex;
 	align-items: center;
 	justify-content: center;
-	
+
 }
 
 /* ==============================
@@ -292,7 +294,7 @@ Medium devices (640px and larger)
 
 	.col {
 		padding: 50px;
-	
+
 	}
 
 	[class*="col-"] {
@@ -323,6 +325,7 @@ Large devices (1024px or larger)
 	.col-lg-7 {
 		width: 58.33%;
 	}
+
 	.container {
 		max-width: 1200px;
 		margin-left: auto;
